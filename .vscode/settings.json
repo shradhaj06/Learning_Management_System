@@ -1,0 +1,8 @@
+{
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.fontSize": 10
+}
