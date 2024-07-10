@@ -150,13 +150,11 @@ server/
    ```
 5. Open a pull request.
 
-## License
 
-This project is licensed under the MIT License.
 
 ## Contact
 
-For any issues, please contact [your email] or create an issue in this repository.
+For any issues, please contact [shradhajha0609@gmail.com)] or create an issue in this repository.
 
 ---
 
