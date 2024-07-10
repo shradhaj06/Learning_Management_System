@@ -46,18 +46,36 @@ Before you begin, ensure you have met the following requirements:
    npm run dev
    ```
 
-## Some API Endpoints
+## API Endpoints
 
-### Authentication
+### User Management
 
 - **POST /api/v1/user/register**
-  - Register a new user (student or admin)
-  
+  - Register a new user with an avatar upload
+
 - **POST /api/v1/user/login**
-  - Authenticate a user and receive a JWT
+  - Log in a user
+
+- **GET /api/v1/user/logout**
+  - Log out a user
 
 - **GET /api/v1/user/me**
-  - Get profile information of current user (login check required)
+  - Get the logged-in user's profile (requires login)
+
+- **POST /api/v1/user/reset**
+  - Initiate a password reset
+
+- **POST /api/v1/user/reset/:resetToken**
+  - Complete password reset with a token
+
+- **POST /api/v1/user/reset-password/:resetToken**
+  - Reset password using reset token
+
+- **POST /api/v1/user/change-password**
+  - Change the logged-in user's password (requires login)
+
+- **PUT /api/v1/user/update/:id**
+  - Update user profile with an avatar upload (requires login)
 
 ### Courses
 
